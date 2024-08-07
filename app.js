@@ -20,3 +20,6 @@
 
 // let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa' 
 // alert(`O número secreto era ${numeroSecreto} e você acertou com apenas ${tentativas} ${palavraTentativa}`)
+alert('Boas-vindas ao jogo do número secreto'); 
+let numeroSecreto = 29;
+prompt('Escolha um número entre 1 e 30');
