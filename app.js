@@ -5,7 +5,7 @@ let chute
 while (chute != numeroSecreto)  {
     chute = prompt('Escolha um número entre 1 e 25');
     if (chute == numeroSecreto) {
-        alert('Isso aí! Você descobriu o número secreto ${numeroSecreto}');
+        alert('Isso aí! Você descobriu o número secreto {numeroSecreto}');
     } else {
         if (chute > numeroSecreto) {
         alert ('O numeroSecreto é menor que ${chute}');
